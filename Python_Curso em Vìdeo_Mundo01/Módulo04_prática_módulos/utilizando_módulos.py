@@ -1,7 +1,6 @@
 #UTILIZANDO MÓDULOS 
 
-'''
----------------> IMPORT MATH
+# ---------------> IMPORT MATH
 import math 
 
 numero = int(input('Digite um número: '))
@@ -9,8 +8,9 @@ raiz = math.sqrt(numero)
 
 print('A raiz quadrada de {} é igual a {}.' .format(numero, math.ceil(raiz)))
 
-'''
-'''
+
+''' 
+--------------------> EXEMPLO COM IMPORTAÇÃO DE FUNÇÕES SEPARADAMENTE 
 from math import sqrt, floor
 from os import symlink
 numero = int(input('Digite um número: '))
@@ -18,6 +18,10 @@ raiz = sqrt(numero)
 
 print('A raiz quadrade de {} é igual a {}.' .format(numero, floor(raiz)))
 '''
+
+# ////////////////////////////////////
+
+
 ''' 
 -------> Bibliotecas já instaladas junto com o Python
 ctrl space 
@@ -31,3 +35,4 @@ Qauntidade imensa de bibliotecas/módulos
 Pacotes que podem ser importados separadamente 
 Existem bibliotecas criadas por desenvolvedores que ficam também disponibilizadas 
 '''
+
